@@ -1,0 +1,94 @@
+.app__container__content {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.app__container__content > h3 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.app__container__content__phong {
+    width: 31%;
+    height: 150px;
+    background-color: #001C40;
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 1%;
+    transition: all 0.4s ease;
+}
+
+.app__container__content__phong:hover {
+    transform: scale(1.03);
+}
+
+/* Quản lý máy */
+.app__container__content__may {
+    width: 18%;
+    background-color: #001C40;
+    padding: 20px;
+    color: #fff;
+    margin: 0 1%;
+    margin-top: 40px;
+    transition: all 0.4s ease;
+}
+
+.app__container__content__may > i {
+    color: #ffe600;
+    font-size: 25px;
+    position: absolute;
+    top: 10px; left: 10px;
+}
+
+.app__container__content__may input {
+    opacity: 0;
+}
+
+.app__container__content__may:hover {
+    transform: translateY(-20px);
+}
+
+.app__container__content__may > img {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.app__container__content__may p {
+    margin-top: 5px;
+}
+
+.app__container__content__may__trangthai {
+    margin-top: 5px;
+}
+
+.app__container__content__may__trangthai select {
+    padding: 5px;
+}
+
+.app__container__content__may__trangthai button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Trở lại */
+.app__container > a {
+    position: fixed;
+    right: 40px;
+    color: #fff;
+    background-color: #001c4069;
+    padding: 10px 30px;
+    bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.app__container > a:hover {
+    background-color: #001C40;
+}

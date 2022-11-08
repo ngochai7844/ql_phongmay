@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #806ABF, #458ED6);
+}
+
+.app__btnDieuHuong {
+    width: 330px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.app__btnDieuHuong button {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #458ED6;
+    color: #fff;
+    border: none;
+}
+
+.app__btnDieuHuong button.active {
+    border: 1px solid #fff;
+}
+
+.app__container {
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.app__container > h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.app__container__formdk__item {
+    margin-top: 10px;
+}
+
+.app__container__formdk__item input {
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #458ED6;
+}
+
+.btnGui {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #806ABF, #458ED6);
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* xemlichj đăng ký */
+.item__lichDK {
+    display: flex;
+    padding: 10px;
+    background-image: linear-gradient(to right, #806ABF, #458ED6);
+    font-size: 15px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.item__lichDK > img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Ản hiện appp */
+
+.app__container {
+    display: none;
+}
+
+.app__container.active {
+    display: block;
+}
